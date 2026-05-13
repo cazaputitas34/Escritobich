@@ -4,7 +4,8 @@
   <!-- html echo por bisluki -->
   <meta charset="UTF-8" />
   <title>Sunnyside</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
@@ -18,10 +19,16 @@
       <a href="#">Contacto</a>
     </nav>
     <h1>Somos creativos</h1>
-  </header>
+    <svg class="arrow-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 102">
+        <g fill="none" fill-rule="evenodd" stroke="#FFF" stroke-width="2">
+          <path d="M15 0v92"/>
+          <path stroke-linecap="square" d="M1 88l14 13 14-13"/>
+        </g>
+      </svg>
+    </header>
 
 
-  <section>
+  <section class="nashe">
     <div>
       <!-- aprender mas -->
       <h2>Transforma tu marca</h2>
@@ -31,55 +38,65 @@
     <img src="https://sparkly-taffy-d6ebbc.netlify.app/images/desktop/image-transform.jpg" alt="Transforma tu marca" />
   </section>
 
-  <section>
+  <section class="nashe">
     <img src="https://sparkly-taffy-d6ebbc.netlify.app/images/desktop/image-stand-out.jpg" alt="Destácate" />
     <div>
       <h2>Destácate ante el público correcto</h2>
       <p>Con diseñadores, fotógrafos y redactores, expandiremos tu marca en el mundo digital.</p>
-      <a href="#">Aprender más</a>
+      <a href="2">Aprender más</a>
     </div>
   </section>
 
   <!-- servicios de la pagina -->
   <section>
-    <div>
-      <img src="https://sparkly-taffy-d6ebbc.netlify.app/images/desktop/image-graphic-design.jpg" alt="Diseño gráfico" />
-      <h2>Diseño Gráfico</h2>
+    <div class="servicios">
+      <img src="https://sparkly-taffy-d6ebbc.netlify.app/images/desktop/image-graphic-design.jpg" alt="" /> 
+      <div>
+      <h3>Diseño Gráfico</h3>
       <p>Un buen diseño te hace memorable.</p>
+      </div>
     </div>
-    <div>
-      <img src="https://sparkly-taffy-d6ebbc.netlify.app/images/desktop/image-photography.jpg" alt="Fotografía" />
-      <h2>Fotografía</h2>
+    <div class="servicios">
+      <img src="https://sparkly-taffy-d6ebbc.netlify.app/images/desktop/image-photography.jpg" alt="" />
+      <div>
+      <h3>Fotografía</h3>
       <p>Fotos de alta calidad que mejoran tu imagen.</p>
+      </div>
     </div>
   </section>
+  
+      <h3 class="Testimonios">Testimonios</h3>
 
       <!-- comentarios de los trabajadores -->
-  <section>
-
-    <h3>Testimonios</h3>
-
-    <div>
+  <section class="penesote">
+  
+    <div class="testimonio1">
       <img src="https://sparkly-taffy-d6ebbc.netlify.app/images/image-emily.jpg" alt="Emily" />
       <p>Sunnyside cumplió con todas nuestras necesidades y plazos.</p>
-      <b>Emily R.</b> — Directora de Marketing
+      <br>
+      <b>Emily R.</b> 
+      <p>Directora de Marketing</p>
     </div>
 
-    <div>
+    <div class="testimonio2">
       <img src="https://sparkly-taffy-d6ebbc.netlify.app/images/image-thomas.jpg" alt="Thomas" />
       <p>Una experiencia satisfactoria y muy agradable.</p>
-      <b>Thomas S.</b> — Director de Operaciones
+      <br>
+      <b>Thomas S.</b>
+      <p>Director de Operaciones</p>
     </div>
 
-    <div>
+    <div class="testimonio3">
       <img src="https://sparkly-taffy-d6ebbc.netlify.app/images/image-jennie.jpg" alt="Jennie" />
       <p>Nuestras ventas aumentaron más del 400%. ¡Muy recomendados!</p>
-      <b>Jennie F.</b> — Dueña del negocio
+      <br>
+      <b>Jennie F.</b>
+      <p>Dueña del negocio</p>
     </div>
   </section>
 
   <!-- fotos de la galería -->
-  <div>
+  <div class="ñoqui">
     <img src="https://sparkly-taffy-d6ebbc.netlify.app/images/desktop/image-gallery-milkbottles.jpg" alt="Leche" />
     <img src="https://sparkly-taffy-d6ebbc.netlify.app/images/desktop/image-gallery-orange.jpg" alt="Naranja" />
     <img src="https://sparkly-taffy-d6ebbc.netlify.app/images/desktop/image-gallery-cone.jpg" alt="Cono" />
@@ -87,12 +104,20 @@
   </div>
 
   <!-- footer con botones -->
-  <footer>
-    <span>sunnyside</span>
+ <footer>
+  <div class="footer-div">
+    <p class="footer-sunny">sunnyside</p>
+    <nav class="footer-nav">
     <a href="#">Acerca</a>
     <a href="#">Servicios</a>
     <a href="#">Proyectos</a>
+    </nav>
+    <div class="footer-botones">
+    <a href="#"><img src="https://sparkly-taffy-d6ebbc.netlify.app/images/icon-facebook.svg" alt="Facebook" /></a>
+    <a href="#"><img src="https://sparkly-taffy-d6ebbc.netlify.app/images/icon-instagram.svg" alt="Instagram" /></a>
+    <a href="#"><img src="https://sparkly-taffy-d6ebbc.netlify.app/images/icon-twitter.svg" alt="Twitter" /></a>
+    <a href="#"><img src="https://sparkly-taffy-d6ebbc.netlify.app/images/icon-pinterest.svg" alt="Pinterest" /></a>
+    </div>
   </footer>
-
 </body>
 </html>
